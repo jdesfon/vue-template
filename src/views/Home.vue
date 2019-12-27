@@ -7,6 +7,9 @@
 <script>
 export default {
   name: 'home',
+  data: () => ({
+    msg: 'hello',
+  }),
 };
 </script>
 
