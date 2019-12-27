@@ -39,7 +39,8 @@
     "vuetify-loader": "^1.0.5"
   },
   "gitHooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "pre-push": "vue-cli-service test:unit"
   },
   "lint-staged": {
     "*.{js,vue}": [
