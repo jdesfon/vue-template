@@ -1,0 +1,6 @@
+{
+    "name": "vue-template",
+    "short_name": "vue-template",
+    "display": "fullscreen",
+    "start_url": "/index.html"
+}
