@@ -1,9 +1,0 @@
-$baseContext : 16; //Default base calculation
-
-@function pxToEm($targetPx, $context: $baseContext) {
-  @return ($targetPx / $context) * 1em;
-}
-
-@function pxToRem($targetPx, $context: $baseContext) {
-  @return ($targetPx / $context) * 1rem;
-}
